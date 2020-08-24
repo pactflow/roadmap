@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the public roadmap for the https://pactflow.io product platofrm.
+This is the public roadmap for the https://pactflow.io product platform.
 
 Knowing about our upcoming products and priorities helps our customers plan. This repository contains information about what we are working on and allows all customers to give direct feedback.
 
