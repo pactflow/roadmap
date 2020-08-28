@@ -10,8 +10,14 @@ Knowing about our upcoming products and priorities helps our customers plan. Thi
 * [OSS Roadmap »](https://pact.canny.io/) (external)
 
 ## Developer Preview Programs
+
 We now have information for developer preview programs within this repository. Issues tagged [Developer Preview](https://github.com/pactflow/roadmap/labels/developer%20preview) on the public roadmap are active preview programs.
 
+## Contributing to the roadmap
+
+Our roadmap is highly customer driven and we welcome both feature requests and bug reports via the Issues feature. 
+
+Features we are currently validating through customer feedback are tagged with `feedback-wanted` (https://github.com/pactflow/roadmap/issues?q=is%3Aissue+is%3Aopen+label%3Afeedback-wanted). Please comment on the issue directly if you're willing to contribute in the open, or [contact us](https://pactflow.io) if you'd like to speak to us directly.
 
 ## Security disclosures
 
