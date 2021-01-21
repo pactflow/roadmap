@@ -13,7 +13,7 @@ Knowing about our upcoming products and priorities helps our customers plan. Thi
 
 We now have information for developer preview programs within this repository. Issues tagged [Developer Preview](https://github.com/pactflow/roadmap/labels/developer%20preview) on the public roadmap are active preview programs.
 
-Register for the developer program [here](https://share.hsforms.com/12oVeZaxxQUCvXKeXGgMreg49tri)
+Register for the developer program [here](https://share.hsforms.com/12oVeZaxxQUCvXKeXGgMreg49tri).
 
 ## Contributing to the roadmap
 
