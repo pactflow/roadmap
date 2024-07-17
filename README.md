@@ -7,7 +7,7 @@ This is the public roadmap for the https://pactflow.io product platform.
 Knowing about our upcoming products and priorities helps our customers plan. This repository contains information about what we are working on and allows all customers to give direct feedback.
 
 - [See our vision and product roadmap approach »](https://github.com/pactflow/roadmap/discussions/67)
-- [See the PactFlow roadmap »](https://github.com/pactflow/roadmap/projects/1)
+- [See the PactFlow roadmap »](https://github.com/orgs/pactflow/projects/3)
 - [View the OSS Roadmap »](https://pact.canny.io/) (external)
 
 ## Developer Preview Programs
