@@ -13,7 +13,7 @@ jobs:
     - run: echo ${{ github.event.comment.body }}
     
     - name: Login
-      uses: atlassian/gajira-login@v3
+      uses: atlassian/gajira-login@ca13f8850ea309cf44a6e4e0c49d9aa48ac3ca4c # v3
       env:
         JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
         JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
@@ -24,7 +24,7 @@ jobs:
     
     - name: Search
       id: search
-      uses: tomhjp/gh-action-jira-search@v0.1.0
+      uses: tomhjp/gh-action-jira-search@e099f122d99bf8f12707c157a98166b16498466c # v0.1.0
       with:
         jql: 'summary ~ ${{ toJSON(github.event.issue.title)}} AND project=${{ secrets.JIRA_PROJECT }}'
     
@@ -34,7 +34,7 @@ jobs:
     - name: Create
       id: create
       if: steps.search.outputs.issue == ''
-      uses: atlassian/gajira-create@v3
+      uses: atlassian/gajira-create@1ff0b6bd115a780592b47bfbb63fc4629132e6ec # v3
       with:
         project: ${{ secrets.JIRA_PROJECT }}
         issuetype: Task
@@ -47,7 +47,7 @@ jobs:
           
     - name: Add Comment 
       if: steps.search.outputs.issue == '' && steps.create.outputs.issue != ''
-      uses: actions/github-script@v5
+      uses: actions/github-script@211cb3fefb35a799baa5156f9321bb774fe56294 # v5
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
